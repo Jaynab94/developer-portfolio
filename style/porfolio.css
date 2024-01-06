@@ -231,3 +231,8 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer section */
+.footer-item {
+    display:  flex;
+}
