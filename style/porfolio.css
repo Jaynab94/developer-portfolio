@@ -102,33 +102,22 @@ nav a {
 }
 
 /* main section desing */
+main {
+
+    width: 1140px;
+    margin: 0 auto;
+
+}
 
 /* about srcton design */
 
-
-
 .about {
 
+    margin: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    padding: 150px;
+    margin: 130px 0;
 }
-
-.description-section {
-
-    color: var(--Dark-03, #757575);
-    text-align: center;
-
-    font-size: 18px;
-
-    font-weight: 400;
-
-}
-
-
-
-
-
 
 .title-section {
     color: #181818;
@@ -137,4 +126,33 @@ nav a {
     font-size: 35px;
 
     font-weight: 700;
+
+}
+
+.description-section {
+    color: #757575;
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.about-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-description {
+   
 }
