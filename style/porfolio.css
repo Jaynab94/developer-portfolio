@@ -4,6 +4,7 @@ body {
 
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .btn-button {
@@ -55,16 +56,85 @@ nav a {
 .header {
 
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-left: 5px;
 
 }
 
+/* banner section */
+
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 
 .banner .profile-picture {
     width: 500px;
+
+}
+
+.banner-greeting {
+
+    font-size: 45px;
+
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+
+}
+
+.banner-title {
+    font-size: 85px;
+
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+.banner-content {
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+/* main section desing */
+
+/* about srcton design */
+
+
+
+.about {
+
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 150px;
+}
+
+.description-section {
+
+    color: var(--Dark-03, #757575);
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+.title-section {
+    color: #181818;
+    text-align: center;
+
+    font-size: 35px;
+
+    font-weight: 700;
 }
