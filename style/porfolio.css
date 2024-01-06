@@ -148,11 +148,6 @@ main {
     text-align: center;
 }
 
-.about-title {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.about-description {
-   
+#what-i-do-section {
+    padding: 30px 150px;
 }
